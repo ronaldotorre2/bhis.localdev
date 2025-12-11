@@ -1,5 +1,5 @@
-## Next Local Development
-This project provides a local development environment for Next bank applications, using docker compose to orchestrate services.
+## BHIS Local Development
+This project provides a local development environment for BHIS applications, using docker compose to orchestrate services.
 
 
 ## Serviços utilizados
@@ -19,7 +19,7 @@ Para acessar o banco de dados devem olhar no fonte que temos o .env_exemple, dev
 To access pgadmin use this url.
 
 ```
-http://localhost:15433/login?next=/
+http://localhost:15433/login?bhis=/
 ```
 
 ### PRISMA
@@ -54,7 +54,7 @@ Each script must follow the prism naming pattern, which is composed of year, mon
 
 - The numbered composition becomes the version and migration number.
 - The number represents the incremental execution order.
-- After the numbers, a brief description of the migration.
+- After the numbers, a briefing description of the migration.
 
 
 Prisma executes scripts in order and maintains a history of applied migrations in the database itself, ensuring traceability and change control.
@@ -121,3 +121,7 @@ In your terminal press ctrl + c
 ```
 
 For more information about docker, see the material available at <https://www.docker.com/>
+
+<br><br>
+Ronaldo Torre <br>
+Software Engineer
